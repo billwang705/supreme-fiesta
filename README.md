@@ -1,3 +1,17 @@
+# 🌿 GPT-Researcher: 中医药 AI 临床证据科研助手 (Specialized TCM Version)
+
+> **本项目是基于 GPT-Researcher 的深度定制版本，专为中医药（TCM）领域的科研从业者设计。**
+
+## 🌟 申请亮点 / Project Highlights
+本项目针对中医药科研的特殊需求，在底层 Prompt 逻辑中进行了以下核心优化：
+
+* **学术权威性优先**：系统强制优先检索并分析来自 **Nature**, **PubMed**, **Lancet** 等顶级学术数据库的文献。
+* **中医核心逻辑对齐**：内置“**辨证论治**”分析框架，能够自动识别并解析中医证候、方剂药理及临床有效性证据。
+* **全自动学术翻译**：支持自动抓取全球英文医学论文，并将其转化为术语精准、符合中文学术规范的简体中文研究报告。
+* **高效科研辅助**：将传统数周的文献综述工作缩短至数分钟，并自动生成带有 Markdown 超链接的学术引用列表。
+
+## 🛠️ 定制化功能说明
+我在 `gpt_researcher/prompts.py` 中重构了报告生成逻辑，确保 Agent 在执行任务时具备“中医专家”的思维模式。
 <div align="center" id="top">
 
 <img src="https://github.com/assafelovic/gpt-researcher/assets/13554167/20af8286-b386-44a5-9a83-3be1365139c3" alt="Logo" width="80">
